@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeirsHolding.Core", "HeirsHolding.Core\HeirsHolding.Core.csproj", "{DFE37A8D-70AD-45C8-A4BD-8F0525956561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeirsHolding.Core", "HeirsHolding.Core\HeirsHolding.Core.csproj", "{DFE37A8D-70AD-45C8-A4BD-8F0525956561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeirsHolding.Infrastructure", "HeirsHolding.Infrastructure\HeirsHolding.Infrastructure.csproj", "{983B00C6-A663-4A7A-84BF-BF981792FD88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeirsHolding.Infrastructure", "HeirsHolding.Infrastructure\HeirsHolding.Infrastructure.csproj", "{983B00C6-A663-4A7A-84BF-BF981792FD88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeirsHolding.API", "HeirsHolding.API\HeirsHolding.API.csproj", "{36D068AB-653F-4837-B8DB-DD25C66FE5A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeirsHolding.API", "HeirsHolding.API\HeirsHolding.API.csproj", "{36D068AB-653F-4837-B8DB-DD25C66FE5A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeirsHolding.Tests", "HeirsHolding.Tests\HeirsHolding.Tests.csproj", "{83E21547-5D13-4A26-A02E-5C05A13074F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{36D068AB-653F-4837-B8DB-DD25C66FE5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D068AB-653F-4837-B8DB-DD25C66FE5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D068AB-653F-4837-B8DB-DD25C66FE5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E21547-5D13-4A26-A02E-5C05A13074F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E21547-5D13-4A26-A02E-5C05A13074F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E21547-5D13-4A26-A02E-5C05A13074F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E21547-5D13-4A26-A02E-5C05A13074F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

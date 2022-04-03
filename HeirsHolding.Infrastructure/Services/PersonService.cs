@@ -26,6 +26,7 @@ namespace HeirsHolding.Infrastructure.Services
         {
             var persons = await _dataSource.Get<Persons>(nameof(Persons));
             var person = persons.Where(x => x.Person_Id == personId).ToList();
+            if (person == default) throw new Exception("Person Not Found");
             var avgScore = person.Average(x => x.Score);
             return avgScore;
         }
@@ -42,6 +43,7 @@ namespace HeirsHolding.Infrastructure.Services
         {
             var persons = await _dataSource.Get<Persons>(nameof(Persons));
             var person = persons.Where(x => x.Person_Id == personId).ToList();
+            if (person == default) throw new Exception("Person Not Found");
             var coursesPersonTakes = person.Select(c => c.Course_Id).ToList();
 
 
